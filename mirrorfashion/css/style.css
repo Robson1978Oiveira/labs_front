@@ -1,49 +1,36 @@
+
+:root{
+    --cor-primaria: #a5227e;
+    --cor-secundaria: #a95e2c;
+    --cor-destaque: #cbf20b;
+    --cor-fundo-destaque: #7e8bf1;
+    --cor-base: #333;
+    --cor-menu: #036;
+}
 .sacola {
-    background: url(../img/sacola.png) no-repeat top right;
-    font-size: 14px;
-    padding-right: 35px;
-    text-align: right;
-    width: 140px;
+   background: url(../img/sacola.png) no-repeat top right;
+   font-size: 14px;
+   padding-right: 35px;
+   text-align: right;
+   width: 140px;    
 }
 
-p {
-    padding: 0 45px;
-    text-indent: 25px;
-    text-align: justify;
-}
-
-#centro-distribuicao{
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-}
-#rodape{
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
-}
-#rodape img {
-    margin-right: 30px;
-    vertical-align: midle;
-    width: 94px;
-}
-
-#familia-pelho {
-    float: right;
-    margin: 0 0 10px 10px;
-
-}
-
-
+h1{
+    color: var(--cor-primaria);    
 .menu-opcoes ul {
-    fonte-size: 15px;
+    font-size: 15px;
 }
 
+h2{
+    color: var(--cor-secundaria);
 .menu-opcoes a {
-    color: 003366;
+    color: var(--cor-menu);
 }
 
+p{
+    color: var(--cor-destaque);
+    background-color: var(--cor-fundo-destaque);
 body {
-    color: #333333;
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: var(--cor-base);
+    font-family: "Roboto", sans-serif;
 }
