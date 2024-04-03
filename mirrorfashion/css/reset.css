@@ -45,7 +45,7 @@ p {
 img, video, iframe, object, embed, audio {
     max-width: 100%;
 }
-
+i
 /* Definindo largura máxima para elementos de formulário */
 input, textarea, select, button {
     max-width: 100%;

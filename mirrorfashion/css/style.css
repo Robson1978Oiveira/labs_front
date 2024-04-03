@@ -1,36 +1,130 @@
-
-:root{
-    --cor-primaria: #a5227e;
-    --cor-secundaria: #a95e2c;
-    --cor-destaque: #cbf20b;
-    --cor-fundo-destaque: #7e8bf1;
+:root {
     --cor-base: #333;
-    --cor-menu: #036;
-}
-.sacola {
-   background: url(../img/sacola.png) no-repeat top right;
-   font-size: 14px;
-   padding-right: 35px;
-   text-align: right;
-   width: 140px;    
-}
+    --cor-fundo-img: #f2eded;
+    --cor-borda-img: #ccc;
+    --cor-titulo-especial: #8a8686cc;
+    --cor-menu: #0036;
+ }
+  
+ body {
+    color: var(--cor-base);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+ }
+  
+ h1 {
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+ }
+  
+ h2 {
+    border-bottom: 2px groove var(--cor-base);
+    margin-top: 30px;
+ }
+  
+ figure {
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img);
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+ }
+  
+ figcaption {
+    font-style: italic;
+    margin-top: 10px;
+ }
+  
+ p {
+    padding: 0 45px;
+    text-indent: 15px;
+    text-align: justify;
+ }
+  
+ #diferenciais {
+    text-align: center;
+    color: var(--cor-base);
+ }
+  
+ #centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+ }
+  
+ .rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+ }
+  
+ .rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+ }
+  
+ #familha-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+ }
+  
+ div {
+    width: 100px;
+    height: 100px;
+    border:  1px solid #000;
+    margin-bottom: 5px;
+ }
+  
+ .amarelo {
+    background-color: yellow;
+ }
+  
+ .azul {
+    background-color: blue;
+ }
+  
+ .vermelho {
+    background-color: red;
+ }
+  
+ .verde {
+    background-color: green;
+ }
+  
+ .roxo {
+    background-color: purple;
+ }
+  
+ .fonte-clara {
+    color: white;
+ }
 
-h1{
-    color: var(--cor-primaria);    
 .menu-opcoes ul {
     font-size: 15px;
 }
 
-h2{
-    color: var(--cor-secundaria);
+.menu-opcoes ul li{
+    display:inline;
+
+}
+
 .menu-opcoes a {
     color: var(--cor-menu);
 }
 
-p{
-    color: var(--cor-destaque);
-    background-color: var(--cor-fundo-destaque);
 body {
     color: var(--cor-base);
     font-family: "Roboto", sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
 }
