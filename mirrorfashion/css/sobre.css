@@ -2,14 +2,15 @@
     --cor-base: #333;
     --cor-fundo-img: #f2eded;
     --cor-borda-img: #ccc;
+    --cor-titulo-especial: #898f95;
+    --cor-rodape: #777;
 }
 body{
     color: var(--cor-base);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;  
-    width: 940px;  
-    margin: auto;
+   
 }
 
 h1{
@@ -25,40 +26,40 @@ h2{
 figure{
     background-color: var(--cor-fundo-img);
     border: 1px solid var(--cor-borda-img);
-    text-align: center;fepi digital
+    text-align: center;
     padding: 15px;
     margin: 30px;
-} <link rel="stylesheet" href="css/sobre.css">
+}
 
 figcaption{
     font-style: italic;
     margin-top: 10px;
-}fepi digital
+}
 
-p {
+p{
     padding: 0 45px;
     text-indent: 25px;
     text-align: justify;
 }
 
 #centro-distribuicao{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 550px;
 }
-.rodape { 
-    color: #777;
+
+.rodape{
+    color: var(--cor-rodape);
     margin: 30px 0;
     padding: 30px 0;
 }
+
 .rodape img {
     margin-right: 30px;
-    vertical-align: midle;
+    vertical-align: middle;
     width: 94px;
 }
 
-#familia-pelho {
-    float: right;
+#familia-pelho{
     margin: 0 0 10px 10px;
-
+    float: right;
 }
