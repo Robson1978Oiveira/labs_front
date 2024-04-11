@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="">
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required>
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="date" required>
+            <label for="rg">RG</label>
+            <input type="text" name="rg" 
+            maxlength="13" minlength="4" title="Coloque seu RG completo" required>
+        <fieldset>
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="CPF no formato 000.000.000-00" required>
+
+        </fieldset>
+        <legend>Endereço</legend>
+        <label for="">Rua</label>
+        <input type="text" nome="rua">
+        <label for="numero">Número</label>
+        <input type="number" name="numero">
+        <label for="bairro">Bairro</label>
+        <input type="text" name="bairro">
+        <label for="cep">CEP</label>
+        <input type="text" name="cep" pattern="\d{5}-\d{3}" required>
+        </fieldset>
+        <fieldset>
+            <legend>Login</legend>
+        </fieldset>  
+        <input type="submit" value="Enviar" name="botãoName">
+    </form>   
+</body>
+</html>
