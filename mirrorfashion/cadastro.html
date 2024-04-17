@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+            <html lang="pt-br">
+             
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="css/cadastro.css">
+                <title>Cadastro</title>
+            </head></div>
+             
+            <body>
+                <h1>Faça seu Cadastro</h1>
+                <img src="img/imagem.jpeg" alt="icone de cadstro">
+                <form action="">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <div class="grid-container">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" required>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" required>
+                            <label for="data">Data de Nascimento</label>
+                            <input type="date" name="data">
+                            <label for="rg">RG</label>
+                            <input type="text" name="rg" maxlength="13" minlength="4" title="Coloque seu RG completo" required>
+                            <label for="cpf">CPF</label>
+                            <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="CPF no formato 000.000.000-00"
+                                required>.grid-button-conainer {
+                        </div>
+                    </fieldset>
+                    
+        <fieldset>
+            <legend>Endereço</legend>
+            <div class="grid-container">
+                <label for="">Rua</label>
+                <input type="text" nome="rua">
+                <label for="numero">Número</label>
+                <input type="number" name="numero">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" pattern="\d{5}-\d{3}" required>
+                <label for="">Cidade</label>
+                <input type="text" name="cidade">
+                <label for="estado">Estado</label>
+                <select name="estado">
+                    <option value="">Selecione o estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Login</legend>
+            <div class="grid-container">
+                <label for="image">Imagem de Perfil</label>
+                <input type="file" name="image" accept="image/*" title="Apenas pnj, jpg, bmp, webp ou gif">
+                <label for="login">Login</label>
+                <input type="text" name="login" required>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" minlength="8" required>
+                <label for="confirmar">Confirmar Senha</label>
+                <input type="password" name="confirmar" minlength="8" required>
+            </div>
+        </fieldset>
+        <div class="grid-button-container">
+        <input type="reset" value="Cancelar" name="Botão Cancelar">
+        <input type="submit" value="Enviar" name="Botão enviar">
+        </div>
+    </form>
+</body>
+ 
+</html>
