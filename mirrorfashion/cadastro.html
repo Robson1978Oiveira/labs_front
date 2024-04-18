@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-            <html lang="pt-br">
-             
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="css/cadastro.css">
-                <title>Cadastro</title>
-            </head></div>
-             
-            <body>
-                <h1>Faça seu Cadastro</h1>
-                <img src="img/imagem.jpeg" alt="icone de cadstro">
-                <form action="">
-                    <fieldset>
-                        <legend>Dados Pessoais</legend>
-                        <div class="grid-container">
-                            <label for="nome">Nome</label>
-                            <input type="text" name="nome" required>
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" required>
-                            <label for="data">Data de Nascimento</label>
-                            <input type="date" name="data">
-                            <label for="rg">RG</label>
-                            <input type="text" name="rg" maxlength="13" minlength="4" title="Coloque seu RG completo" required>
-                            <label for="cpf">CPF</label>
-                            <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="CPF no formato 000.000.000-00"
-                                required>.grid-button-conainer {
-                        </div>
-                    </fieldset>
-                    
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header class="grid-header-container">
+        <div class="top-left">
+            <h1>Faça seu Cadastro</h1>
+            <h2>Cadastra-se para promoções!</h2>
+        </div>
+        <div class="top-right">
+            <img src="img/imagem.jpeg" alt="icone de cadstro">
+        </div>
+    </header>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="grid-container">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" required>
+                <label for="data">Data de Nascimento</label>
+                <input type="date" name="data">
+                <label for="rg">RG</label>
+                <input type="text" name="rg" maxlength="13" minlength="4" title="Coloque seu RG completo" required>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="CPF no formato 000.000.000-00"
+                    required>.grid-button-conainer {
+            </div>
+        </fieldset>
+
         <fieldset>
             <legend>Endereço</legend>
             <div class="grid-container">
@@ -89,10 +96,11 @@
             </div>
         </fieldset>
         <div class="grid-button-container">
-        <input type="reset" value="Cancelar" name="Botão Cancelar">
-        <input type="submit" value="Enviar" name="Botão enviar">
+            <input type="reset" value="Cancelar" name="Botão Cancelar">
+            <input type="submit" value="Enviar" name="Botão enviar">
         </div>
     </form>
+    <hr>
 </body>
- 
+
 </html>
