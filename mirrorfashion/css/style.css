@@ -91,7 +91,6 @@ header {
 .buca input[type="search"] {
    width: 170px;
 }
-
 .destaques {
    margin-top: 10px;
 }
@@ -139,3 +138,44 @@ header {
 .mais-vendidos {
    background-color: #dcdcf5;
 }
+
+footer{
+   background-image: url(../img/fundo-rodape.png);
+   clear: both;
+   padding: 20px 0;
+   position: relative;
+}
+
+.social a{
+   height: 32px;
+   width: 32px;
+   display: block;
+   text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"]{
+   background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"]{
+   background-image: url(../img/twitter.png);
+
+}
+
+
+.social a[href*="google.com"]{
+   background-image: url(../img/googleplus.png);
+
+}
+
+.social li{
+   float: left;
+   margin-left: 25px;
+
+}
+.social {
+   position: absolute;
+   top: 12px;
+   right: 0;
+}
+
