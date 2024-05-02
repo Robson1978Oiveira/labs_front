@@ -3,6 +3,7 @@
    --cor-menu: #036;
    --cor-menu-lateral: #a5a19b;
    --cor-menu-lateral-item: #d6ccbf;
+   --cor--painel-novidades: #f5dcdc;
 }
 
 .sacola {
@@ -37,7 +38,7 @@ body {
 
 .container {
    margin: 0 auto;
-   width: 90%;
+   width: 940px;
 }
 
 header {
@@ -112,7 +113,7 @@ header {
 .painel li {
    display: inline-block;
    vertical-align: top;
-   width: 140px;
+   width: 135px;
    margin: 2px;
    padding-bottom: 10px;
 }
