@@ -31,6 +31,13 @@
    color: var(--cor-menu);
 }
 
+.menu-opcoes a:houver{
+   color: #007dc6
+}
+.menu-opcoes :active{
+   color: red
+}
+
 body {
    color: var(--cor-base);
    font-family: "Roboto", sans-serif;
@@ -179,3 +186,27 @@ footer{
    right: 0;
 }
 
+.menu-opcoes a:hover {
+   color: #007dc6;
+
+}
+
+.menu-opcoes a:active {
+   color: red;
+}
+
+.menu-departamentos li ul{
+   display: none;  
+}
+
+.menu-departamentos li:hover ul{
+   display: block;
+}
+
+.menu-departamentos ul ul li{
+   background-color: var(--cor-menu-lateral);
+}
+
+.menu-departamentos li li a::before{
+   content: '-';
+}
