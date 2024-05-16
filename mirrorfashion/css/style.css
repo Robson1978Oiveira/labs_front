@@ -106,13 +106,17 @@ header {
    margin: 10px 0;
    padding: 10px;
    width: 445px;
+   border-radius: 4px;
+   box-shadow: 1px 1px 4px #999;
 }
 
 .novidades {
+   background: linear-gradient(23deg, rgb(91, 84, 207) 0%, rgb(93, 93, 231) 42%, rgba(0,212,255,1) 100%);
    float: left
 }
-
+ 
 .mais-vendidos {
+   background: linear-gradient(23deg, rgba(237,19,244,1) 0%, rgba(158,66,161,1) 42%, rgba(170,107,252,1) 100%);
    float: right;
 }
 
@@ -129,6 +133,7 @@ header {
    font-weight: bold;
    text-transform: uppercase;
    margin-bottom: 10px;
+   text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 .painel a {
