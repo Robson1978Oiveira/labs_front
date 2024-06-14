@@ -31,10 +31,11 @@
    color: var(--cor-menu);
 }
 
-.menu-opcoes a:houver{
+.menu-opcoes a:houver {
    color: #007dc6
 }
-.menu-opcoes :active{
+
+.menu-opcoes :active {
    color: red
 }
 
@@ -98,8 +99,10 @@ header {
 .buca input[type="search"] {
    width: 170px;
 }
-.destaques {
+
+.destaque {
    margin-top: 10px;
+   position: relative;
 }
 
 .painel {
@@ -111,12 +114,12 @@ header {
 }
 
 .novidades {
-   background: linear-gradient(23deg, rgb(91, 84, 207) 0%, rgb(93, 93, 231) 42%, rgba(0,212,255,1) 100%);
+   background: linear-gradient(23deg, rgb(91, 84, 207) 0%, rgb(93, 93, 231) 42%, rgba(0, 212, 255, 1) 100%);
    float: left
 }
- 
+
 .mais-vendidos {
-   background: linear-gradient(23deg, rgba(237,19,244,1) 0%, rgba(158,66,161,1) 42%, rgba(170,107,252,1) 100%);
+   background: linear-gradient(23deg, rgba(237, 19, 244, 1) 0%, rgba(158, 66, 161, 1) 42%, rgba(170, 107, 252, 1) 100%);
    float: right;
 }
 
@@ -151,40 +154,41 @@ header {
    background-color: #dcdcf5;
 }
 
-footer{
+footer {
    background-image: url(../img/fundo-rodape.png);
    clear: both;
    padding: 20px 0;
    position: relative;
 }
 
-.social a{
+.social a {
    height: 32px;
    width: 32px;
    display: block;
    text-indent: -9999px;
 }
 
-.social a[href*="facebook.com"]{
+.social a[href*="facebook.com"] {
    background-image: url(../img/facebook.png);
 }
 
-.social a[href*="twitter.com"]{
+.social a[href*="twitter.com"] {
    background-image: url(../img/twitter.png);
 
 }
 
 
-.social a[href*="google.com"]{
+.social a[href*="google.com"] {
    background-image: url(../img/googleplus.png);
 
 }
 
-.social li{
+.social li {
    float: left;
    margin-left: 25px;
 
 }
+
 .social {
    position: absolute;
    top: 12px;
@@ -200,40 +204,60 @@ footer{
    color: red;
 }
 
-.menu-departamentos li ul{
-   display: none;  
+.menu-departamentos li ul {
+   display: none;
 }
 
-.menu-departamentos li:hover ul{
+.menu-departamentos li:hover ul {
    display: block;
 }
 
-.menu-departamentos ul ul li{
+.menu-departamentos ul ul li {
    background-color: var(--cor-menu-lateral);
 }
 
-.menu-departamentos li li a::before{
+.menu-departamentos li li a::before {
    content: '-';
 }
 
 
-.painel li:hover{
+.painel li:hover {
    background-color: rgba(255, 255, 255, 0.8);
    box-shadow: 0 0 5px #333;
    transition: 0.7s ease-in;
    transform: scale(1.2) rotate(-5deg);
- }
- 
- .painel li:nth-child(2n):hover {
+}
+
+.painel li:nth-child(2n):hover {
    transform: scale(1.2) rotate(5deg)
- }
- 
- .painel li {
+}
+
+.painel li {
    display: inline-block;
    vertical-align: top;
    width: 135px;
    margin: 2px;
    padding-bottom: 10px;
    transition: 0.7s ease-out;
- }
- 
+}
+
+.pause,
+.play {
+   display: block;
+   position: absolute;
+   right: 15px;
+   top: 15px;
+}
+
+.pause {
+   border-left: 10px solid #900;
+   border-right: 10px solid #900;
+   height: 30px;
+   width: 5px;
+}
+
+.play {
+   border-left: 25px solid #900;
+   border-bottom: 15px solid transparent;
+   border-top: 15px solid transparent;
+}
